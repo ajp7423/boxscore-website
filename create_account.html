@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account Creation</title>
+        <meta name="description" content="account creation page for mobile app for casual basketball boxscore statkeeping app called Boxscore">
+        <meta property="og:title" content="Account Creation for Boxscore: Casual Basketball Stat Keeping App">
+        <meta property="og:description" content="Account Creation for Boxscore: Casual Basketball Stat Keeping App">
+        <meta property="og:image" content="tbd">
+        <meta property="og:url" content="tbd"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 style="margin: 0;">Account Creation<img src="images/basketball_clipart.png" alt="basketball clipart" height="55"></h1>
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="about.html">About the Developer</a>
+                <a href="development_journey.html">Development Journey</a>
+                <a href="index.html#contact_info">Contact Me</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <form action="create_account.html" method="POST">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" minlength="4" maxlength="10" required>
+                </div>
+                
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[-.]?[0-9]{3}[-.]?[0-9]{4}" required>
+                </div>
+
+                <!-- <label for="bday">Birthday:</label>
+                <input type="date" id="bday" required> <br> -->
+
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="99" required> 
+                </div>
+
+                <div>
+                    <label for="why">Why did you get this app?:</label>
+
+                    <input type="radio" id="organized_team" value="organized team" name="why" required>
+                    <label for="organized team">for an organized league</label>
+
+                    <input type="radio" id="casual" value="casual" name="why"> 
+                    <label for="casual">for casual use</label>
+
+                    <input type="radio" id="other" value="other" name="why"> 
+                    <label for="other">other</label>
+                </div>
+
+                <!-- skipped dropdown menu and file submission
+                when submitting files, recommended to change encryption type -->
+
+                <div>
+                    <label for="subscribe">Would you like to opt-in to email updates regarding the app?</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                </div>
+
+                <input type="submit">
+
+            </form>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            Aidan Pustay <br>
+            <a href="mailto:aidanjp2021@gmail.com">aidanjp2021@gmail.com</a>            
+        </footer>        
+        
+    </body>
+</html>
