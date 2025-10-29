@@ -68,7 +68,6 @@ body {
     font-size: 25px;
     padding: 10px 20px; 
     border: 2px solid darkgreen;
-    cursor: pointer; 
     background-color: lightgreen; 
     border-radius: 10px; 
     animation: colorChange 1s infinite;
@@ -98,8 +97,8 @@ body {
     background-color: #d9b382;       
     color: white;                     
     border: none;                     
-    border-radius: 6px;               
-    padding: 8px 16px;               
+    border-radius: 6px;     
+    padding: 8px 16px;          
     font-weight: bold;
     cursor: pointer;
 }
@@ -119,8 +118,8 @@ hr {
 .dropdown-content { 
     display: none; 
     position: absolute;
-    right: 0; 
     background-color: white;
+    right: 0; 
     min-width: 150px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 6px;
