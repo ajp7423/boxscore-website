@@ -22,7 +22,7 @@ main {
     flex: 1;
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
-
+    color: #2f4f2f;
 }
 main p, main ul {
     text-align: left;
@@ -105,6 +105,7 @@ body {
     padding: 10px;
     background-color: #fffdf5; 
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    color: black;
 }
 .solid-border input[type="submit"] {
     background-color: #d9b382;       
@@ -188,6 +189,10 @@ hr {
     font-weight: bold;
     color: rgb(223, 223, 223);
     background-color: #2f4f2f;
+}
+.create_account_button:hover{
+    transform: translateY(-2px);         
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
 }
 
 .radio-buttons label{
