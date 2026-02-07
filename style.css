@@ -45,6 +45,9 @@ header {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
 }
 
+#comment {
+    max-width: 100%;
+}
 header nav a {
     margin: 0 10px;
     text-decoration: none;
