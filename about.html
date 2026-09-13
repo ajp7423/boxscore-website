@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -13,24 +13,16 @@
     </head>
     
     <body>
-        <header>
-            <h1>About the Developer<img src="images/basketball_clipart.png" alt="basketball clipart" height="55"></h1>
-            <nav> 
-                <a href="index.html">Home</a>
-                <a href="about.html">About the Developer</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="index.html#contact_info">Contact Me</a>
-
-                <div class="account-dropdown">
-                   <img src="images/account icon.png" height="25">
-                   <div class="dropdown-content">
-                        <a href="create_account.html">Create Account</a>
-                        <a href="login.html">Login</a>
-                        <a href="profile.html">Profile</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+        <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Boxscore home">Boxscore <img src="images/basketball_clipart.png" alt="" width="38" height="38"></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="demos.html">Demo</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="index.html#contact_info">Contact</a>
+    </nav>
+  </header>
         <main>
             <section class="about-section">
                 <p>
@@ -45,7 +37,7 @@
 
                 <p>
                     The second reason was to fill a specific need. The idea came to me after participating in a casual basketball pickup tournament hosted by a friend. 
-                    We wanted to track stats, but the existing apps didn’t suit our needs. We weren’t using timers or tracking player rotationsm, we just wanted simple stat 
+                    We wanted to track stats, but the existing apps didn’t suit our needs. We weren’t using timers or tracking player rotations; we just wanted simple stat
                     tracking for casual games where 2s and 3s were worth 1 and 2 points, respectively. Most apps were overly complex or structured for regulation games.
                 </p>
 
@@ -61,7 +53,7 @@
             </section>
             
             <div class="card">
-                <img class="card-image" src="images/basketball_clipart.png" alt="Picture of Aidan Pustay"></img>
+                <img class="card-image" src="images/basketball_clipart.png" alt="Basketball illustration">
                 <h2 class="card-title">Aidan</h2>
                 <p class="card-text">I make stuff and struggle to do it</p>
             </div>

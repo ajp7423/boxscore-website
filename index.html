@@ -1,121 +1,45 @@
-<!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Pickup Basketball Stat Tracker: Casual Basketball Stat Keeping App</title>
-        <meta name="description" content="companion website for boxscore casual basketball stat keeping app mobile app">
-        <meta property="og:title" content="Boxscore: Casual Basketball Stat Keeping App">
-        <meta property="og:description" content="Boxscore: Casual Basketball Stat Keeping App">
-        <meta property="og:image" content="tbd">
-        <meta property="og:url" content="tbd">
-        <link rel="stylesheet" href="style.css?v=1">
-        <!-- <style>
-            main{background-color: #F9F6EE;}
-            header{background-color: bisque; padding: 20px;}
-            footer{background-color: bisque; padding: 20px;}
-
-        </style> -->
-    </head>
-
-    <body>
-        <header>
-            <h1>Pickup Basketball Stat Tracker<img src="images/basketball_clipart.png" alt="basketball clipart" height="55"></h1>
-            <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="about.html">About the Developer</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="index.html#contact_info">Contact Me</a>
-
-                <div class="account-dropdown">
-                   <img src="images/account icon.png" height="25">
-                   <div class="dropdown-content">
-                        <a href="create_account.html">Create Account</a>
-                        <a href="login.html">Login</a>
-                        <a href="profile.html">Profile</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <h2 class="h2title-top"><i>Coming Soon to the Google Play Store and Apple App Store...</i></h2>
-            
-            <a href="https://play.google.com/store/games?hl=en_US" target="_blank" title="">
-                <img style=margin:20px; src="images/play stores icons.png" alt="Google Play Store and Apple App Store icons">
-            </a>                
-            
-            <div>
-                <a href="https://play.google.com/store/games?hl=en_US" target="_blank" title="Google Play Store" class="alternating-button">
-                    Get Now! <img src="images/download_arrow.png" alt="downloadarrow" height="25">
-                </a>
-            </div>
-            <br>
-            <br>
-
-            <div>
-                <img src="images/scoring-system.jpg" alt="scoring system" height="400">
-                <h3>Choose your scoring system</h3>
-            <br>
-                <img src="images/stat-selection.jpg" alt="stat selection" height="400">
-                <h3>Customize the stats you want to keep track of</h3>
-            <br>
-                <img src="images/teams-creation.jpg" alt="teams creation" height="400">
-                <h3>Create and customize your teams and players</h3>
-            <br>
-                <img src="images/placeholder.png" alt="placeholder" height="400">
-                <h3>Save teams and game history</h3>
-            <br>
-                <h3>And many more features still to come...</h3>
-            </div>
-
-            <!-- <p>Perfect for casual stat keeping while playing pick-up with your friends.</p>
-                <ul>
-                    <li>choose what stats you want to keep track of (assists, rebounds, fouls, etc. are optional)</li>
-                    <li>saves players and teams</li>
-                    <li>no player minimum (can be used for a 1v1 up to a 6v6)</li>
-                    <li>can change whose on the floor (if you choose you're playing with subs)</li>
-                    <li>saves game history</li>
-                    <li>and many more features</li>
-                </ul> -->
-            <br>
-
-            <h3><a href="create_account.html" title="Create an Account!">
-                Create an account</a> 
-            to log in and view your games and teams on any device. Totally optional!</h3>
-            
-            <br>
-
-            <h3>Read about
-            <a href="about.html" title="About">
-                the developer
-            </a></h3>
-
-            <br>
-
-            <div class="solid-border">
-                <h3>Send me feedback!</h3>
-                <p id="contact_info">
-                    Any and all questions, comments, and critiques are appreciated! <br>
-                    Email me:
-                    <a href="mailto:aidanjp2021@gmail.com">
-                        aidanjp2021@gmail.com
-                    </a>
-                    <br><br>
-
-                Or send me a comment anonymously! (no one else sees it) <br>
-                    <form action="index.html" method="POST">
-                        <label for="comment"></label>
-                        <textarea id="comment" rows="10" name="comment" cols="100"></textarea>
-                        <br>
-                        <input type="submit">
-                    </form>
-                </p>
-            </div>
-        </main>
-        <footer>
-            Aidan Pustay <br>
-            <a href="mailto:aidanjp2021@gmail.com">aidanjp2021@gmail.com</a>            
-        </footer>
-
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Boxscore makes it easy to track stats for casual pickup basketball games.">
+  <title>Boxscore | Pickup Basketball Stat Tracker</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Boxscore home">Boxscore <img src="images/basketball_clipart.png" alt="" width="38" height="38"></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="demos.html">Demo</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="#contact_info">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">Made for pickup basketball</p>
+      <h1 id="hero-title">Keep score. Track the stats that matter.</h1>
+      <p>Boxscore keeps casual games simple, whether you’re playing one-on-one or running full teams. The app is coming soon.</p>
+      <a class="button" href="demos.html">Watch the demo <span aria-hidden="true">→</span></a>
+    </section>
+    <section class="features" aria-labelledby="features-title">
+      <h2 id="features-title">Your game, your setup</h2>
+      <div class="feature-grid">
+        <article class="feature-card"><img src="images/scoring-system.jpg" alt="Scoring system options in Boxscore" loading="lazy"><h3>Choose your scoring system</h3></article>
+        <article class="feature-card"><img src="images/stat-selection.jpg" alt="Stat selection screen in Boxscore" loading="lazy"><h3>Track the stats you want</h3></article>
+        <article class="feature-card"><img src="images/teams-creation.jpg" alt="Team creation screen in Boxscore" loading="lazy"><h3>Create teams and players</h3></article>
+      </div>
+      <p class="feature-note">Save your teams and game history, with more features on the way.</p>
+    </section>
+    <section class="contact-panel" id="contact_info" aria-labelledby="contact-title">
+      <h2 id="contact-title">Have feedback?</h2>
+      <p>Questions, ideas, and critiques are welcome. Send me a note at <a href="mailto:aidanjp2021@gmail.com">aidanjp2021@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer>Aidan Pustay · <a href="mailto:aidanjp2021@gmail.com">aidanjp2021@gmail.com</a></footer>
+</body>
 </html>
